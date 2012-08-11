@@ -30,15 +30,6 @@ public partial class About {
     protected global::System.Web.UI.WebControls.Label lblAuthor;
     
     /// <summary>
-    /// lblName control.
-    /// </summary>
-    /// <remarks>
-    /// Auto-generated field.
-    /// To modify move field declaration from designer file to code-behind file.
-    /// </remarks>
-    protected global::System.Web.UI.WebControls.Label lblName;
-    
-    /// <summary>
     /// lblVersion control.
     /// </summary>
     /// <remarks>
@@ -82,15 +73,6 @@ public partial class About {
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
     protected global::System.Web.UI.WebControls.Label lblOwned;
-    
-    /// <summary>
-    /// lblOwnDes control.
-    /// </summary>
-    /// <remarks>
-    /// Auto-generated field.
-    /// To modify move field declaration from designer file to code-behind file.
-    /// </remarks>
-    protected global::System.Web.UI.WebControls.Label lblOwnDes;
     
     /// <summary>
     /// lblCertify control.

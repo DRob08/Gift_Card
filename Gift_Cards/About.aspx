@@ -42,9 +42,7 @@
                     Font-Italic="True"></asp:Label>
             </td>
             <td class="style4">
-                &nbsp;<asp:Label ID="lblName" runat="server" 
-                    Text="Reinaldo Hernandez, Darwin Robinson"></asp:Label>
-            </td>
+                &nbsp;Darwin Robinson</td>
             <td class="style4">
                 &nbsp;</td>
         </tr>
@@ -76,8 +74,7 @@
                     Font-Italic="True"></asp:Label>
             </td>
             <td class="style4">
-                &nbsp;<asp:Label ID="lblOwnDes" runat="server" Text="Royal Caribbean Ltd"></asp:Label>
-            </td>
+                &nbsp;</td>
             <td class="style4">
                 &nbsp;</td>
         </tr>
