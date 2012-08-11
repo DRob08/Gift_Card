@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Type>
+    <type>CANAPW</type>
+  </Type>
+  <Type>
+    <type>CELEB</type>
+  </Type>
+  <Type>
+    <type>COMSHP</type>
+  </Type>
+  <Type>
+    <type>FLORL</type>
+  </Type>
+  <Type>
+    <type>GEAR</type>
+  </Type>
+  <Type>
+    <type>GIFTS</type>
+  </Type>
+  <Type>
+    <type>PACKGE</type>
+  </Type>
+  <Type>
+    <type>PURSER</type>
+  </Type>
+  <Type>
+    <type>WINE</type>
+  </Type>
+</ArrayOfType>

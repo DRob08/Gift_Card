@@ -1,0 +1,53 @@
+<%@ Master Language="C#" Inherits="MasterPage" EnableViewState="true" Codebehind="MasterPage.master.cs" %><!DOCTYPE html>
+<html>
+<head runat="server">
+    <title></title>
+    <link rel="stylesheet" href="style.css" />
+    <asp:ContentPlaceHolder id="Head" runat="server" />
+</head>
+<body >
+    <div class="BodyContent">
+
+    <div ><div>
+
+     <%--   <div class="Header">
+          <div class="HeaderTitle">--%>
+          <div>
+           
+          <div>
+            <%--<h1><a href="#"><img src="images/RCCLLogo.JPG" alt=""/></a></h1>--%>
+            <table style="width: 100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#000066">  
+                 <tr>
+                    <td >
+                        <asp:Image ID="Image1" runat="server" ImageUrl="~/images/RCCLLogo.JPG" /> 
+                    </td>
+                </tr>
+                 <tr>
+                    <td bgcolor="#3336C3">
+                     <div class="Menu"><ul><%= RenderMenu() %></ul> </td></div></div>
+                 </tr>
+            </table>
+            <h2></h2>
+          </div>
+       <%-- </div><div class="Menu">
+             <ul><%= RenderMenu() %></ul>
+             
+        </div>--%><div class="Columns"><div class="MainColumn"><div class="Article"> 
+
+            <asp:ContentPlaceHolder id="Content" runat="server" />
+
+        </div></div></div>
+        <div class="Footer">
+            <asp:ContentPlaceHolder id="Footer" runat="server" >
+                
+            </asp:ContentPlaceHolder>
+           
+        </div>                
+
+    </div></div>
+  
+    
+    <asp:ContentPlaceHolder id="AfterBody" runat="server" />
+    
+</body>
+</html>

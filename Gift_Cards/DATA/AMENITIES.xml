@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfAmenity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Amenity>
+    <amenity>ANNIVERSARY</amenity>
+    <type>CELEB</type>
+  </Amenity>
+  <Amenity>
+    <amenity>ANNIVERSARY PACKAGE MOET&amp;CHAND</amenity>
+    <type>PACKGE</type>
+  </Amenity>
+  <Amenity>
+    <amenity>ASTI SPUMANTE, MARTINI &amp; ROSSI</amenity>
+    <type>WINE</type>
+  </Amenity>
+  <Amenity>
+    <amenity>BIRTHDAY (NEW STYLE)</amenity>
+    <type>CELEB</type>
+  </Amenity>
+  <Amenity>
+    <amenity>BIRTHDAY FLOWER CAKE</amenity>
+    <type>FLORL1</type>
+  </Amenity>
+  <Amenity>
+    <amenity>BON VOYAGE (NEW STYLE)</amenity>
+    <type>CELEB</type>
+  </Amenity>
+  <Amenity>
+    <amenity>BON VOYAGE CAKE-CHOCOLATE</amenity>
+    <type>CELEB</type>
+  </Amenity>
+  <Amenity>
+    <amenity>BON VOYAGE CAKE-VANILLA</amenity>
+    <type>CELEB</type>
+  </Amenity>
+  <Amenity>
+    <amenity>CHAMPAGNE &amp; ROSE PETALS</amenity>
+    <type>PACKGE</type>
+  </Amenity>
+  <Amenity>
+    <amenity>CHAMPAGNE MOET &amp; CHANDON</amenity>
+    <type>WINE</type>
+  </Amenity>
+  <Amenity>
+    <amenity>CHARDONNAY CASTLE ROCK</amenity>
+    <type>WINE</type>
+  </Amenity>
+  <Amenity>
+    <amenity>CHARDONNAY MER SOLEIL</amenity>
+    <type>WINE</type>
+  </Amenity>
+  <Amenity>
+    <amenity>CHOCOLATE COVERED STRWB (9)</amenity>
+    <type>CANAPW</type>
+  </Amenity>
+  <Amenity>
+    <amenity>CLASSIC ROMANCE PACKAGE</amenity>
+    <type>PACKGE</type>
+  </Amenity>
+  <Amenity>
+    <amenity>CLASSIC ROMANCE PKG NON ALCOHO</amenity>
+    <type>PACKGE</type>
+  </Amenity>
+  <Amenity>
+    <amenity>CONGRATULATIONS CAKE-CHOCOLATE</amenity>
+    <type>CELEB</type>
+  </Amenity>
+  <Amenity>
+    <amenity>CONGRATULATIONS CAKE-VANILLA</amenity>
+    <type>CELEB</type>
+  </Amenity>
+  <Amenity>
+    <amenity>DOMAIN CHANDON,BRUT,CALIFORNIA</amenity>
+    <type>WINE</type>
+  </Amenity>
+  <Amenity>
+    <amenity>DOMAINE ST MICHELLLE BRUT</amenity>
+    <type>WINE</type>
+  </Amenity>
+  <Amenity>
+    <amenity>ELEGANT ORCHIDS NON US PORTS</amenity>
+    <type>FLORL1</type>
+  </Amenity>
+  <Amenity>
+    <amenity>ELEMENT BAG</amenity>
+    <type>GEAR</type>
+  </Amenity>
+  <Amenity>
+    <amenity>ENGLISH GARDEN NON US PORT</amenity>
+    <type>FLORL1</type>
+  </Amenity>
+  <Amenity>
+    <amenity>FRUIT &amp; CHEESE BASKET</amenity>
+    <type>CANAPW</type>
+  </Amenity>
+  <Amenity>
+    <amenity>FRUIT BASKET &amp; BRUT ST MICHELE</amenity>
+    <type>CANAPW</type>
+  </Amenity>
+  <Amenity>
+    <amenity>FRUIT CHEESE BASKET BRUT ST MI</amenity>
+    <type>CANAPW</type>
+  </Amenity>
+  <Amenity>
+    <amenity>FRUIT CHEESE BSKT BERINGER ZIN</amenity>
+    <type>CANAPW</type>
+  </Amenity>
+  <Amenity>
+    <amenity>FRUIT GANACHE TRUFFLES</amenity>
+    <type>GIFTS</type>
+  </Amenity>
+  <Amenity>
+    <amenity>GEAR PKG 3- BAG, PACK, HOLDER,</amenity>
+    <type>GEAR</type>
+  </Amenity>
+  <Amenity>
+    <amenity>GRAND ROMANCE PACKAGE</amenity>
+    <type>PACKGE</type>
+  </Amenity>
+  <Amenity>
+    <amenity>HAPPY BIRTHDAY CAKE- CHOCOLATE</amenity>
+    <type>CELEB</type>
+  </Amenity>
+  <Amenity>
+    <amenity>HAPPY BIRTHDAY CAKE-VANILLA</amenity>
+    <type>CELEB</type>
+  </Amenity>
+  <Amenity>
+    <amenity>LA TERRE CHARDONNAY</amenity>
+    <type>WINE</type>
+  </Amenity>
+  <Amenity>
+    <amenity>LA TERRE MERLOT</amenity>
+    <type>WINE</type>
+  </Amenity>
+  <Amenity>
+    <amenity>MERLOT, BLACKSTONE SONOMA  CA</amenity>
+    <type>WINE</type>
+  </Amenity>
+  <Amenity>
+    <amenity>MERLOT,MONT GRAS RESERVE</amenity>
+    <type>WINE</type>
+  </Amenity>
+  <Amenity>
+    <amenity>ONBOARD CREDIT</amenity>
+    <type>PURSER</type>
+  </Amenity>
+  <Amenity>
+    <amenity>ONE DOZEN ROSES N AMER PORTS</amenity>
+    <type>FLORL1</type>
+  </Amenity>
+  <Amenity>
+    <amenity>PINOT GRIGIO, DANZANTE IT</amenity>
+    <type>WINE</type>
+  </Amenity>
+  <Amenity>
+    <amenity>QUINCEANERAS ROSE BOUQUET US</amenity>
+    <type>CELEB</type>
+  </Amenity>
+  <Amenity>
+    <amenity>QUINCEANERAS T-SHIRT MEDIUM</amenity>
+    <type>CELEB</type>
+  </Amenity>
+  <Amenity>
+    <amenity>RCI SIGNATURE BASKET</amenity>
+    <type>GIFTS</type>
+  </Amenity>
+  <Amenity>
+    <amenity>RED VELVET CUPCAKES</amenity>
+    <type>GIFTS</type>
+  </Amenity>
+  <Amenity>
+    <amenity>ROYAL CARIBBEAN BEACH TOWEL</amenity>
+    <type>GEAR</type>
+  </Amenity>
+  <Amenity>
+    <amenity>ROYAL CARIBBEAN PHOTO ALBUM</amenity>
+    <type>COMSHP</type>
+  </Amenity>
+  <Amenity>
+    <amenity>SAUVIGNON BLANC,CALITERRA</amenity>
+    <type>WINE</type>
+  </Amenity>
+  <Amenity>
+    <amenity>SIMPLY ROMANTIC NON US PORTS</amenity>
+    <type>FLORL1</type>
+  </Amenity>
+  <Amenity>
+    <amenity>SOLAIRE BY ROBERT MONDAVI CAB</amenity>
+    <type>WINE</type>
+  </Amenity>
+  <Amenity>
+    <amenity>STRAWBERRIES BRUT ST MICHELLE</amenity>
+    <type>CANAPW</type>
+  </Amenity>
+  <Amenity>
+    <amenity>TROPICALLY ROMANTIC NO US PORT</amenity>
+    <type>FLORL1</type>
+  </Amenity>
+  <Amenity>
+    <amenity>VANILLA LITTLE CUPCAKES</amenity>
+    <type>GIFTS</type>
+  </Amenity>
+  <Amenity>
+    <amenity>WHITE ZINFANDEL,BERINGER</amenity>
+    <type>WINE</type>
+  </Amenity>
+  <Amenity>
+    <amenity>WINE &amp; CHEESE, CAB. SAUV</amenity>
+    <type>CANAPW</type>
+  </Amenity>
+  <Amenity>
+    <amenity>WINE &amp; CHEESE, CHARD.</amenity>
+    <type>CANAPW</type>
+  </Amenity>
+  <Amenity>
+    <amenity>WINE &amp; CHEESE, W. ZIN.</amenity>
+    <type>CANAPW</type>
+  </Amenity>
+  <Amenity>
+    <amenity>WINE TRUFFLES</amenity>
+    <type>GIFTS</type>
+  </Amenity>
+  <Amenity>
+    <amenity>ZINFANDEL,RAVENSWOOD</amenity>
+    <type>WINE</type>
+  </Amenity>
+</ArrayOfAmenity>

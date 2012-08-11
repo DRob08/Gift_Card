@@ -1,0 +1,10 @@
+C:\Test\Gift_Cards\Gift_Cards\bin\Gift_Cards.dll
+C:\Test\Gift_Cards\Gift_Cards\bin\Gift_Cards.pdb
+C:\Test\Gift_Cards\Gift_Cards\obj\Release\ResolveAssemblyReference.cache
+C:\Test\Gift_Cards\Gift_Cards\obj\Release\RdlCompile.cache
+C:\Test\Gift_Cards\Gift_Cards\obj\Release\RdlCompile.compiled
+C:\Test\Gift_Cards\Gift_Cards\obj\Release\Gift_Cards.dll
+C:\Test\Gift_Cards\Gift_Cards\obj\Release\Gift_Cards.pdb
+C:\Test\Gift_Cards\Gift_Cards\bin\Microsoft.ReportViewer.Common.dll
+C:\Test\Gift_Cards\Gift_Cards\bin\Microsoft.ReportViewer.WebForms.dll
+C:\Test\Gift_Cards\Gift_Cards\bin\Microsoft.ReportViewer.WebForms.xml

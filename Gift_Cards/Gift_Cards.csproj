@@ -1,0 +1,383 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{361F6072-1E95-4FE6-8F08-BEC048A14F1E}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Gift_Cards</RootNamespace>
+    <AssemblyName>Gift_Cards</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="Account\ChangePassword.aspx" />
+    <Content Include="Account\ChangePasswordSuccess.aspx" />
+    <Content Include="Account\Login.aspx" />
+    <Content Include="Account\Register.aspx" />
+    <Content Include="AllGiftcardsFrm.aspx" />
+    <Content Include="CurrentGiftFrm.aspx" />
+    <Content Include="DATA\AMENITIES.xml" />
+    <Content Include="DATA\GIFTCDS.TXT" />
+    <Content Include="DATA\TYPE.xml" />
+    <Content Include="HouseKeepingFrm.aspx" />
+    <Content Include="images\11920_11461_128_previous_icon.png" />
+    <Content Include="images\ActiveMenuButton.png" />
+    <Content Include="images\ActiveMenuButtonAnchor.png" />
+    <Content Include="images\ArticleCenter.png" />
+    <Content Include="images\ArticleCorners.png" />
+    <Content Include="images\ArticleHorizontal.png" />
+    <Content Include="images\ArticleVertical.png" />
+    <Content Include="images\BackgroundGradient.png" />
+    <Content Include="images\BlockCenter.png" />
+    <Content Include="images\BlockContentBorderCenter.png" />
+    <Content Include="images\BlockContentBorderCorners.png" />
+    <Content Include="images\BlockContentBorderHorizontal.png" />
+    <Content Include="images\BlockContentBorderVertical.png" />
+    <Content Include="images\BlockCorners.png" />
+    <Content Include="images\BlockHeader.png" />
+    <Content Include="images\BlockHeaderAnchor.png" />
+    <Content Include="images\BlockHorizontal.png" />
+    <Content Include="images\BlockVertical.png" />
+    <Content Include="images\BorderCenter.png" />
+    <Content Include="images\BorderCorners.png" />
+    <Content Include="images\BorderHorizontal.png" />
+    <Content Include="images\BorderVertical.png" />
+    <Content Include="images\Button Next-01.png" />
+    <Content Include="images\Button Previous-01.png" />
+    <Content Include="images\Button.png" />
+    <Content Include="images\ButtonAnchor.png" />
+    <Content Include="images\Footer.png" />
+    <Content Include="images\gft_rcgiftbox_147.jpg" />
+    <Content Include="images\Header.png" />
+    <Content Include="images\MenuBar.png" />
+    <Content Include="images\MenuButton.png" />
+    <Content Include="images\MenuButtonAnchor.png" />
+    <Content Include="images\print-printer.png" />
+    <Content Include="images\RCCLLogo.JPG" />
+    <Content Include="images\return.jpg" />
+    <Content Include="images\returns-icon.jpg" />
+    <Content Include="images\Royal-Caribbean-Logo.jpg" />
+    <Content Include="NewAmenity.aspx" />
+    <Content Include="OwnGiftCard.aspx" />
+    <Content Include="PrintNewGiftCard.aspx" />
+    <Content Include="PrintNewGiftCardDinning.aspx" />
+    <Content Include="ReviewGiftcardFrm.aspx" />
+    <Content Include="Scripts\jquery.ui.core.js" />
+    <Content Include="Scripts\jquery.ui.datepicker.js" />
+    <Content Include="Scripts\jquery.ui.widget.js" />
+    <None Include="Service References\GuestService\Gift_Cards.GuestService.GuestView.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GuestService\Gift_Cards.GuestService.GuestViewSessionPage.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GuestService\GuestService.wsdl" />
+    <None Include="Service References\GuestService\configuration91.svcinfo" />
+    <None Include="Service References\GuestService\configuration.svcinfo" />
+    <None Include="Service References\GuestService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\VoyageService\configuration91.svcinfo" />
+    <None Include="Service References\VoyageService\configuration.svcinfo" />
+    <None Include="Service References\VoyageService\Gift_Cards.VoyageService.VoyageView.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\VoyageService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="style.css" />
+    <Content Include="Styles\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Styles\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Styles\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Styles\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Styles\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Styles\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Styles\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Styles\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Styles\images\ui-icons_222222_256x240.png" />
+    <Content Include="Styles\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Styles\images\ui-icons_454545_256x240.png" />
+    <Content Include="Styles\images\ui-icons_888888_256x240.png" />
+    <Content Include="Styles\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Styles\jquery.ui.accordion.css" />
+    <Content Include="Styles\jquery.ui.all.css" />
+    <Content Include="Styles\jquery.ui.autocomplete.css" />
+    <Content Include="Styles\jquery.ui.base.css" />
+    <Content Include="Styles\jquery.ui.button.css" />
+    <Content Include="Styles\jquery.ui.core.css" />
+    <Content Include="Styles\jquery.ui.datepicker.css" />
+    <Content Include="Styles\jquery.ui.dialog.css" />
+    <Content Include="Styles\jquery.ui.progressbar.css" />
+    <Content Include="Styles\jquery.ui.resizable.css" />
+    <Content Include="Styles\jquery.ui.selectable.css" />
+    <Content Include="Styles\jquery.ui.slider.css" />
+    <Content Include="Styles\jquery.ui.tabs.css" />
+    <Content Include="Styles\jquery.ui.theme.css" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Types.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="WineReportFrm.aspx" />
+    <None Include="Service References\VoyageService\VoyageService.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.designer.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AllGiftcardsFrm.aspx.cs">
+      <DependentUpon>AllGiftcardsFrm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AllGiftcardsFrm.aspx.designer.cs">
+      <DependentUpon>AllGiftcardsFrm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CurrentGiftFrm.aspx.cs">
+      <DependentUpon>CurrentGiftFrm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CurrentGiftFrm.aspx.designer.cs">
+      <DependentUpon>CurrentGiftFrm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="HouseKeepingFrm.aspx.cs">
+      <DependentUpon>HouseKeepingFrm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HouseKeepingFrm.aspx.designer.cs">
+      <DependentUpon>HouseKeepingFrm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="lib\Amenity.cs" />
+    <Compile Include="lib\Giftcard.cs" />
+    <Compile Include="lib\PrintReports.cs" />
+    <Compile Include="lib\Type.cs" />
+    <Compile Include="lib\UtilityClass.cs" />
+    <Compile Include="MasterPage.master.cs">
+      <DependentUpon>MasterPage.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPage.master.designer.cs">
+      <DependentUpon>MasterPage.master</DependentUpon>
+    </Compile>
+    <Compile Include="NewAmenity.aspx.cs">
+      <DependentUpon>NewAmenity.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewAmenity.aspx.designer.cs">
+      <DependentUpon>NewAmenity.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OwnGiftCard.aspx.cs">
+      <DependentUpon>OwnGiftCard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OwnGiftCard.aspx.designer.cs">
+      <DependentUpon>OwnGiftCard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PrintNewGiftCard.aspx.cs">
+      <DependentUpon>PrintNewGiftCard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PrintNewGiftCard.aspx.designer.cs">
+      <DependentUpon>PrintNewGiftCard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PrintNewGiftCardDinning.aspx.cs">
+      <DependentUpon>PrintNewGiftCardDinning.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PrintNewGiftCardDinning.aspx.designer.cs">
+      <DependentUpon>PrintNewGiftCardDinning.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReviewGiftcardFrm.aspx.cs">
+      <DependentUpon>ReviewGiftcardFrm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReviewGiftcardFrm.aspx.designer.cs">
+      <DependentUpon>ReviewGiftcardFrm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\GuestService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\VoyageService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Types.aspx.cs">
+      <DependentUpon>Types.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Types.aspx.designer.cs">
+      <DependentUpon>Types.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WineReportFrm.aspx.cs">
+      <DependentUpon>WineReportFrm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WineReportFrm.aspx.designer.cs">
+      <DependentUpon>WineReportFrm.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="App_WebReferences\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\Web.config" />
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\LOG.TXT2012-07-23err.log" />
+    <Content Include="MasterPage.master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CurrentReport.rdlc" />
+    <Content Include="HouseKeepingReport.rdlc" />
+    <Content Include="PrintNewGiftCard.rdlc" />
+    <Content Include="PrintNewGiftCardDinning.rdlc" />
+    <Content Include="WineReport.rdlc" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\GuestService\" />
+    <WCFMetadataStorage Include="Service References\VoyageService\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49267</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
